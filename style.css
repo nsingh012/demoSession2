@@ -1,0 +1,69 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Irish Grover', cursive;
+}
+
+h1{
+	color:orangered;
+	font-size:300%;
+	transform:translate(100%);
+	text-align: center;
+}
+
+.animeNames{
+	color:black;
+	font-size:200%;
+	border:solid;
+	border-color:black;
+	border-radius: 20px;
+	background-color:mintcream;
+	text-align: center;
+	padding:10px;
+}
+
+
+#animephotos{
+	width:256px;
+	height:368px;
+	margin:20px;
+	border-radius: 20px;
+}
+
+#topBanner{
+	width:100%;
+	height:100%;
+	display:flex; 
+}
+
+#menu{
+	position:absolute;
+	width:5%;
+}
+
+#NANIME{
+	display:flex;
+	justify-content: space-evenly;
+}
+
+
+#list{
+	display:flex;
+	justify-content: space-evenly;
+}
+
+ul,ol,li{
+	color:mediumspringgreen;
+	font-weight: bold;
+	text-align: left;
+	padding:5px;
+}
+
+body{
+	background-image: url('Nanime.png');
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: 100% 100%;
+}
+
+
